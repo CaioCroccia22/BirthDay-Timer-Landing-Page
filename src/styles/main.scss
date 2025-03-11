@@ -1,0 +1,5 @@
+@use 'componets/var';
+
+body{
+    background-color: var.$mainBackground-color;
+}
