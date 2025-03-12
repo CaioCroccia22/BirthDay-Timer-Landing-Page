@@ -16,6 +16,6 @@ setInterval (function() {
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor(distance % (1000 * 60 * 60 * 24) / (1000  *  60 * 60));
 
-    contador.innerHTML = days + 'Dias'+ ' ' + hours + 'Horas';
+    contador.innerHTML = days +  ' ' + 'Dias'+ ' ' + hours + ' ' + 'Horas';
 }, 1000);
 
