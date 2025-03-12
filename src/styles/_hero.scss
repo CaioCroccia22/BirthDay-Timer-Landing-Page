@@ -1,0 +1,46 @@
+@use 'componets/var';
+
+.hero{
+    
+    &__header{
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 500px;
+        }
+
+        h2{
+            font-size: 36px;
+            margin-top: 150px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: var.$h2FontFamily;
+            color: #000000;
+        }
+    }
+
+    &__body{
+
+        h1{
+            font-size: 48px;
+            margin-top: 50px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: var.$h1FontFamily;
+            color: var.$titleColor;
+        }
+
+        h3{
+            font-size: 32px;
+            margin-top: 50px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: var.$h1FontFamily;
+            color: var.$titleColor;
+        }
+    }
+}
